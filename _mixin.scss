@@ -1,0 +1,6 @@
+@mixin child($border , $transition) {
+    
+    border-radius: $border;
+    transition: $transition;
+
+}
