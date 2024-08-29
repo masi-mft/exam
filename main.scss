@@ -1,0 +1,23 @@
+@import "./extend";
+@import "./mixin";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.parent{
+    @extend %parent;
+    
+    >div.product{
+        @extend %product;
+        @include child(20px , 600ms);
+
+        &:hover{
+            background-color: lightblue;
+        }
+    }
+
+}
