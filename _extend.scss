@@ -1,0 +1,17 @@
+%parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+%product{
+    width: 40%;
+    height: auto;
+    background-color: lightpink;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
